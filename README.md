@@ -10,10 +10,6 @@ See a short [Project Presentation](https://www.loom.com/share/373c078d61c149fe90
   <li><a href="https://www.w3.org/TR/CSS/#css">CSS</a></li>
 </ul>
 </details>
-<details><summary>Server</summary>
-</details>
-<details><summary>Database</summary>
-</details>
 
 ### Key Features
 - **Mobile Version**
@@ -86,7 +82,8 @@ If you like this project follow me on GitHub.
 <p align="right">(<a href="https://github.com/newhoteng/Capstone-1#readme">back to top</a>)</p>
 
 ## :pray: Acknowledgements
-I would like to thank my team mates.
+Original design by Cindy Shin
+
 
 <p align="right">(<a href="https://github.com/newhoteng/Capstone-1#readme">back to top</a>)</p>
   

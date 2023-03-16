@@ -496,7 +496,7 @@ p.interest {
     width: 50%;
   }
 
-  .speaker-flex div:nth-child(n+3) {
+  .speaker-container:nth-child(n+3) {
     display: flex;
   }
 
@@ -519,10 +519,43 @@ p.interest {
     color: grey;
   }
 
-  .footer p {
-    text-align: center;
-    padding: 100px;
+  /* footer */
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 70px 200px;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  } 
+
+  .left-side p {
+    font-size: 1rem;
+    line-height: 0.6;
+  }
+
+  .right-side {
     font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+  }
+
+  .right-side p:nth-child(1) {
+    font-weight: 600;
+  }
+
+  .footer-text {
+    display: block;
+    margin-top: 15px;
   }
 }
 
