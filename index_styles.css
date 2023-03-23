@@ -154,6 +154,8 @@ h1 {
   font-weight: 900;
   line-height: 1;
   background: linear-gradient(45deg, red, orange);
+  background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
