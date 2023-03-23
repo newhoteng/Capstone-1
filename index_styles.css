@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -155,9 +156,10 @@ h1 {
   line-height: 1;
   background: linear-gradient(45deg, red, orange);
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  
 }
 
 h1 span.hello {
