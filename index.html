@@ -11,97 +11,99 @@
 </head>
 <body>
   <!-- common header -->
-  <header>
-    <ul class="top-nav">
-      <li><i class="fab fa-brands fa-facebook-f"></i></li>
-      <li><i class="fab fa-brands fa-twitter"></i></li>
-      <li>English</li>
-      <li>My Page</li>
-      <li>Logout</li>
-    </ul>
-    <nav>
-      <div id="hamburger-icon">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-      <div class="mobile-menu">
-        <ul class="mobile-menu-background">
-          <li><a href="index.html">
-            <div class="logo-container">
-              <div class="gear"><span class="material-symbols-rounded">settings_suggest</span></div>
-              <div class="large-text" >GhEng</div>
-            </div>
-          </a></li>
-          <li><a href="about.html" class="orange">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
-          <li class="campaign"><a href="#" class="orange">Campaign</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <!-- end of common header -->
-  <main>
-    <section class="headline">
-      <h1><span class="hello">"Hello! Engineers"</span><br> <strong>ANNUAL GENERAL<br> CONFERENCE<br> 2024</strong></h1>
-      <p class="intro">This conference will provide a common platform for all practitioners and affiliates from diverse engineering and related backgrounds to share ideas, experiences, and network.</p>
-      <p class="date"><strong>2024.10.17(THU) ~ 16(FRI)</strong> </p>
-      <P class="location">@ Accra International Conference Center</P>
-    </section>
+  <div class="background-image">
+    <header>
+      <ul class="top-nav">
+        <li><i class="fab fa-brands fa-facebook-f"></i></li>
+        <li><i class="fab fa-brands fa-twitter"></i></li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+      <nav>
+        <div id="hamburger-icon">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div class="mobile-menu">
+          <ul class="mobile-menu-background">
+            <li><a href="index.html">
+              <div class="logo-container">
+                <div class="gear"><span class="material-symbols-rounded">settings_suggest</span></div>
+                <div class="large-text" >GhEng</div>
+              </div>
+            </a></li>
+            <li><a href="about.html" class="orange">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+            <li class="campaign"><a href="#" class="orange">Campaign</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- end of common header -->
+    <main>
+      <section class="headline">
+        <h1><span class="hello">"Hello! Engineers"</span><br> <strong>ANNUAL GENERAL<br> CONFERENCE<br> 2024</strong></h1>
+        <p class="intro">This conference will provide a common platform for all practitioners and affiliates from diverse engineering and related backgrounds to share ideas, experiences, and network.</p>
+        <p class="date"><strong>2024.10.17(THU) ~ 16(FRI)</strong> </p>
+        <P class="location">@ Accra International Conference Center</P>
+      </section>
+  </div>
 
-    <section class="program">
-      <h2 class="program">Main Program</h2>
-      <hr>
-      <div class="desktop-flex-container">
-        <div class="program-item">
-          <i class="material-symbols-rounded">podium</i>
-          <span class="icon">Lecture</span>
-          <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+      <section class="program">
+        <h2 class="program">Main Program</h2>
+        <hr>
+        <div class="desktop-flex-container">
+          <div class="program-item">
+            <i class="material-symbols-rounded">podium</i>
+            <span class="icon">Lecture</span>
+            <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+          </div>
+          <div class="program-item">
+            <i class="material-symbols-rounded">photo_frame</i>
+            <span class="icon">Exhibition</span>
+            <p>Appreciate various creations applying GhiE standards.</p>
+          </div>
+          <div class="program-item">
+            <i class="material-symbols-rounded">forum</i>
+            <span class="icon">Forum</span>
+            <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+          </div>
+          <div class="program-item">
+            <i class="material-symbols-rounded">home_repair_service</i>
+            <span class="icon">Workshop</span>
+            <p>Try creating your own work using open source license rather than just watching.</p>
+          </div>
+          <div class="program-item">
+            <i class="material-symbols-rounded">hub</i>
+            <span class="icon">Network</span>
+            <p>Get opportunities to network with other Engineers around the world.</p>
+          </div>
         </div>
-        <div class="program-item">
-          <i class="material-symbols-rounded">photo_frame</i>
-          <span class="icon">Exhibition</span>
-          <p>Appreciate various creations applying GhiE standards.</p>
-        </div>
-        <div class="program-item">
-          <i class="material-symbols-rounded">forum</i>
-          <span class="icon">Forum</span>
-          <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
-        </div>
-        <div class="program-item">
-          <i class="material-symbols-rounded">home_repair_service</i>
-          <span class="icon">Workshop</span>
-          <p>Try creating your own work using open source license rather than just watching.</p>
-        </div>
-        <div class="program-item">
-          <i class="material-symbols-rounded">hub</i>
-          <span class="icon">Network</span>
-          <p>Get opportunities to network with other Engineers around the world.</p>
-        </div>
-      </div>
-      <button class="join">Join</button>
-      <a href="#" class="whole-program">SEE THE WHOLE PROGRAM</a>
-    </section>
-    <!-- dynamically created section -->
-    <section id="speakers" class="speakers">
+        <button class="join">Join</button>
+        <a href="#" class="whole-program">SEE THE WHOLE PROGRAM</a>
+      </section>
+      <!-- dynamically created section -->
+      <section id="speakers" class="speakers">
 
-    </section>
+      </section>
 
-    <section class="partner">
-      <h2>Partner</h2>
-      <hr>
-      <div class="companies">
-        <div><i class="fab fa-brands fa-airbnb"></i></div>
-        <div><i class="fab fa-brands fa-google"></i></div>
-        <div><i class="fab fa-brands fa-amazon"></i></div>
-        <div><i class="fa fa-solid fa-snowflake"></i></div>
-        <div><i class="fab fa-brands fa-stripe"></i></div>
-      </div>
-    </section> 
-  </main>
+      <section class="partner">
+        <h2>Partner</h2>
+        <hr>
+        <div class="companies">
+          <div><i class="fab fa-brands fa-airbnb"></i></div>
+          <div><i class="fab fa-brands fa-google"></i></div>
+          <div><i class="fab fa-brands fa-amazon"></i></div>
+          <div><i class="fa fa-solid fa-snowflake"></i></div>
+          <div><i class="fab fa-brands fa-stripe"></i></div>
+        </div>
+      </section> 
+    </main>
   <footer>
     <div class="left-side">
       <span><strong>&#169</strong></span><p><strong>annual <br>conference</strong></p>

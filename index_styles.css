@@ -13,10 +13,11 @@ html {
   color: #3a4a42;
 }
 
-body {
-  background: url('images/background5.jpg');
+/* used to be body */
+.background-image {
+  background: url('images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 50%;
+  background-color: rgba(224, 222, 222, 0.3);
 }
 
 /* begin common header styles */
@@ -146,7 +147,6 @@ footer {
 
 .headline {
   padding-bottom: 75px;
-  background-color: rgba(224, 222, 222, 0.3);
 }
 
 /* background-clip: text; */

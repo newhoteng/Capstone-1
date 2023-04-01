@@ -15,7 +15,7 @@ html {
 /* begin common header styles */
 
 header {
-  background-color: #f3f3f3;
+  background-color: #f7f7f7;
   padding: 20px 0 40px;
 }
 
@@ -139,11 +139,29 @@ header {
 /* end common header styles */
 
 .headline {
-  background-color: #f3f3f3;
+  background-color: #f7f7f7;
   padding-bottom: 64px;
   font-size: 0.7rem;
   text-align: center;
   line-height: 1.5;
+  position: relative;
+}
+
+.orange-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background:
+    repeating-linear-gradient(
+      135deg,
+      red,
+      red 4%,
+      transparent 4%,
+      transparent 8%
+    );
+  position: absolute;
+  top: -45px;
+  left: 80px;
 }
 
 h1 {
@@ -328,7 +346,7 @@ footer {
   }
 
   header {
-    background-color: #f3f3f3;
+    background-color: #f7f7f7;
     padding: 0 0 40px;
   }
 
@@ -384,6 +402,14 @@ footer {
 
   .headline {
     padding: 0 200px 120px;
+  }
+
+  .orange-circle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 110px;
+    left: 200px;
   }
 
   h1 {
