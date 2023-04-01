@@ -145,14 +145,14 @@ header {
   text-align: center;
   line-height: 1.5;
   position: relative;
-  
 }
 
 .orange-circle {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: repeating-linear-gradient(
+  background:
+    repeating-linear-gradient(
       135deg,
       red,
       red 4%,

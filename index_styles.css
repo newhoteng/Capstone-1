@@ -11,6 +11,7 @@
 
 html {
   color: #3a4a42;
+
   /* width: 100%;
   height: 100%; */
 }
@@ -21,7 +22,6 @@ html {
   background-repeat: no-repeat;
   background-color: rgba(224, 222, 222, 0.3);
 }
-
 
 /* begin common header styles */
 
