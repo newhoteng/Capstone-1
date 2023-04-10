@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap'); */
 
 * {
   box-sizing: border-box;
@@ -128,13 +128,12 @@ header {
   display: flex;
 }
 
-.mobile-menu li:hover {
-  background-color: #eee;
-}
-
 .mobile-menu li a:hover {
   color: red;
-  font-size: 0.9rem;
+}
+
+.mobile-menu li:nth-child(7):hover {
+  background-color: #eee;
 }
 
 /* end common header styles */
@@ -343,7 +342,7 @@ footer {
 @media all and (min-width: 768px) {
   /* common header styles */
   html {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   header {
