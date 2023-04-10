@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap'); */
 
 * {
   box-sizing: border-box;
@@ -134,13 +133,12 @@ footer {
   display: flex;
 }
 
-.mobile-menu li:hover {
-  background-color: #eee;
-}
-
 .mobile-menu li a:hover {
   color: red;
-  font-size: 0.9rem;
+}
+
+.mobile-menu li:nth-child(7):hover {
+  background-color: #eee;
 }
 
 /* End common header styles */
@@ -155,16 +153,18 @@ h1 {
   margin: 0 0 25px 25px;
   font-weight: 900;
   line-height: 1;
-  background: linear-gradient(45deg, red, orange);
+  background-image: url(images/fire-image.jpeg);
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
-h1 span.hello {
+.hello {
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 2;
+  color: #ec5242;
+  margin-left: 25px;
 }
 
 p.intro {
@@ -350,7 +350,7 @@ p.interest {
 @media all and (min-width: 768px) {
   /* common header styles */
   html {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   header {
@@ -413,8 +413,9 @@ p.interest {
     line-height: 0.9;
   }
 
-  h1 span {
+  .hello {
     font-size: 2rem;
+    margin-left: 0;
   }
 
   p.intro {
