@@ -92,16 +92,7 @@ const moreButton = document.createElement('button');
 moreButton.setAttribute('id', 'more');
 moreButton.classList.add('more');
 
-const moreText = document.createElement('span');
-moreText.classList.add('more-text');
-moreText.innerHTML = 'MORE';
-
-const moreIcon = document.createElement('span');
-moreIcon.classList.add('fa', 'fa-solid', 'fa-chevron-down', 'more-icon');
-// <i class="fa-solid fa-chevron-down"></i>
-// <i class="fa-solid fa-chevron-up"></i>
-
-moreButton.append(moreText, moreIcon);
+moreButton.innerHTML = `<span class="more-text">MORE</span><span class="fa fa-solid fa-chevron-down more-icon"></span>`;
 
 speakerSection.append(moreButton);
 
@@ -118,19 +109,18 @@ mobileMenu.addEventListener('click', () => {
 
 // More or Less Button
 const moreSpeakerBtn = document.getElementById('more');
-const spanWithMoreText = document.querySelector('.more-text');
 const speakerWrapper = document.querySelectorAll('.speaker-container');
 
 moreSpeakerBtn.addEventListener('click', () => {
   moreSpeakerBtn.classList.toggle('all');
 
   if (moreSpeakerBtn.classList.contains('all')) {
-    spanWithMoreText.innerHTML = 'LESS';
+    moreSpeakerBtn.innerHTML = '<span class="more-text">LESS</span><span class="fa fa-solid fa-chevron-up more-icon"></span>';
     for (let i = 2, len = speakerWrapper.length; i < len; i += 1) {
       speakerWrapper[i].style.display = 'flex';
     }
   } else {
-    spanWithMoreText.innerHTML = 'MORE';
+    moreSpeakerBtn.innerHTML = '<span class="more-text">MORE</span><span class="fa fa-solid fa-chevron-down more-icon"></span>';
     for (let i = 2, len = speakerWrapper.length; i < len; i += 1) {
       speakerWrapper[i].style.display = 'none';
     }

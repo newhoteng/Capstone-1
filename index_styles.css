@@ -155,6 +155,7 @@ h1 {
   line-height: 1;
   background-image: url(images/fire-image.jpeg);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
@@ -259,18 +260,14 @@ hr {
 
 .speakers {
   padding: 24px 0;
-  /* border: 1px solid red; */
 }
 
 .speaker-container {
   display: flex;
-  /* padding: 20px 20px 20px 30px; */
   padding: 20px 0;
   align-items: center;
   justify-content: center;
   gap: 15px;
-  /* border: 1px solid green; */
-  /* margin: 0; */
 }
 
 .speaker-image-container img.checkered-design {
