@@ -54,9 +54,9 @@ speakers.forEach((speaker) => {
 
   flexContainerDesktop.append(speakerContainer);//
 
-  const checkeredDesign = document.createElement('img');
+  const checkeredDesign = document.createElement('div');
   checkeredDesign.classList.add('checkered-design');
-  checkeredDesign.src = 'images/black-white.png';
+  // checkeredDesign.src = 'images/black-white.png';
 
   const imageContainer = document.createElement('div');
   imageContainer.classList.add('speaker-image-container');

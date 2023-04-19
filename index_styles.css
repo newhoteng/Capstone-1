@@ -150,7 +150,7 @@ footer {
 /* background-clip: text; */
 h1 {
   font-size: 2rem;
-  margin: 0 0 25px 25px;
+  margin: 0 -15px 25px -15px;
   font-weight: 900;
   line-height: 1;
   background-image: url(images/fire-image.jpeg);
@@ -164,12 +164,12 @@ h1 {
   font-weight: 300;
   line-height: 2;
   color: #ec5242;
-  margin-left: 25px;
+  margin-left: -15px;
 }
 
 p.intro {
   border: 3px solid white;
-  margin: 12.5px;
+  margin: 12.5px -15px;
   padding: 15px;
   font-size: 0.7rem;
   line-height: 1.5;
@@ -178,11 +178,11 @@ p.intro {
 
 p.date {
   font-size: 1.3rem;
-  margin: 0 0 8px 25px;
+  margin: 0 -15px 8px -15px;
 }
 
 p.location {
-  margin: 0 0 0 25px;
+  margin: 0 -15px;
   font-size: 0.9rem;
 }
 
@@ -269,13 +269,29 @@ hr {
   gap: 15px;
 }
 
-.speaker-image-container img.checkered-design {
+.speaker-image-container div.checkered-design {
   width: 60px;
   height: 60px;
   position: absolute;
   top: -15px;
   left: -15px;
   z-index: -1;
+  /* border: 2px solid red; */
+  background:
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3,
+      #d3d3d3 9.09%,
+      transparent 9.09%,
+      transparent 18.18%
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 9.09%,
+      #d3d3d3 9.09%,
+      #d3d3d3 18.18%
+    );
 }
 
 .speaker-image-container img {
