@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -176,10 +176,11 @@ h1 {
   display: none;
 }
 
-span.hello {
+p.hello {
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 3;
+  color: #ec5242;
 }
 
 p.intro {
@@ -369,7 +370,7 @@ footer {
 
   #hamburger-icon,
   .remove,
-  span.hello,
+  p.hello,
   .partner {
     display: none;
   }
@@ -401,7 +402,7 @@ footer {
   /* end of common header styles */
 
   .headline {
-    padding: 0 200px 120px;
+    padding: 70px 200px 120px;
   }
 
   .orange-circle {

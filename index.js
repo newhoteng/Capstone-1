@@ -70,8 +70,7 @@ speakers.forEach((speaker) => {
   <div class="black-first"></div>
   <div class="trans-first"></div>
   <div class="black-first"></div>
-  `
-
+  `;
 
   const imageContainer = document.createElement('div');
   imageContainer.classList.add('speaker-image-container');
@@ -107,7 +106,7 @@ const moreButton = document.createElement('button');
 moreButton.setAttribute('id', 'more');
 moreButton.classList.add('more');
 
-moreButton.innerHTML = `<span class="more-text">MORE</span><span class="fa fa-solid fa-chevron-down more-icon"></span>`;
+moreButton.innerHTML = '<span class="more-text">MORE</span><span class="fa fa-solid fa-chevron-down more-icon"></span>';
 
 speakerSection.append(moreButton);
 
