@@ -150,7 +150,7 @@ footer {
 /* background-clip: text; */
 h1 {
   font-size: 2rem;
-  margin: 0 -15px 25px -15px;
+  margin: 0 -10px 25px -10px;
   font-weight: 900;
   line-height: 1;
   background-image: url(images/fire-image.jpeg);
@@ -164,7 +164,7 @@ h1 {
   font-weight: 300;
   line-height: 2;
   color: #ec5242;
-  margin-left: -15px;
+  margin-left: -10px;
 }
 
 p.intro {
@@ -178,11 +178,11 @@ p.intro {
 
 p.date {
   font-size: 1.3rem;
-  margin: 0 -15px 8px -15px;
+  margin: 0 -10px 8px -10px;
 }
 
 p.location {
-  margin: 0 -15px;
+  margin: 0 -10px;
   font-size: 0.9rem;
 }
 
@@ -259,17 +259,21 @@ hr {
 
 .speakers {
   padding: 24px 0;
+  /* border: 1px solid red; */
 }
 
 .speaker-container {
   display: flex;
-  padding: 20px 20px 20px 30px;
+  /* padding: 20px 20px 20px 30px; */
+  padding: 20px 0;
   align-items: center;
   justify-content: center;
   gap: 15px;
+  /* border: 1px solid green; */
+  /* margin: 0; */
 }
 
-.speaker-image-container div.checkered-design {
+.speaker-image-container img.checkered-design {
   width: 60px;
   height: 60px;
   position: absolute;
@@ -277,21 +281,6 @@ hr {
   left: -15px;
   z-index: -1;
   /* border: 2px solid red; */
-  background:
-    repeating-linear-gradient(
-      90deg,
-      #d3d3d3,
-      #d3d3d3 9.09%,
-      transparent 9.09%,
-      transparent 18.18%
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 9.09%,
-      #d3d3d3 9.09%,
-      #d3d3d3 18.18%
-    );
 }
 
 .speaker-image-container img {
@@ -305,8 +294,8 @@ hr {
 
 .speaker-image-container {
   position: relative;
-  width: 95px;
-  height: 95px;
+  width: 100px;
+  height: 100px;
 }
 
 .speaker-text {
@@ -342,8 +331,8 @@ p.interest {
 
 .more {
   font-size: 0.7rem;
-  width: 95%;
-  margin: 20px auto 0;
+  width: 110%;
+  margin: 20px -15px 0;
   padding: 10px;
   display: flex;
   align-items: center;
