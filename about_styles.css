@@ -154,8 +154,8 @@ header {
   background:
     repeating-linear-gradient(
       135deg,
-      red,
-      red 4%,
+      #ec5242,
+      #ec5242 4%,
       transparent 4%,
       transparent 8%
     );
